@@ -20,6 +20,11 @@ app.get('/', (req, res) => {
   res.send('Welcome to the social media dashboard application');
 });
 
+// Handle undefined routes
+app.use((req, res) => {
+  res.status(404).send('404 - Not Found');
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
