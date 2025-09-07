@@ -14,7 +14,7 @@ mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true 
   .catch(err => console.error(err));
 
 app.get('/', (req, res) => {
-  res.send('Willkommen zum sozialen Medien Dashboard');
+  res.send('Willkommen in der sozialen Medien Dashboard-Anwendung');
 });
 
 app.listen(PORT, () => {
