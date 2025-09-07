@@ -1,7 +1,7 @@
 {
   "name": "social-media-dashboard",
   "version": "1.0.0",
-  "description": "Ein zentrales Dashboard für soziale Medien",
+  "description": "A central dashboard for social media platforms",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
